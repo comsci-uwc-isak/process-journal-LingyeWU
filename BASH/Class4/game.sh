@@ -37,7 +37,7 @@ then
     read c4
 
 
-else   if [[ $c3 = 2 ]];
+else  if [[ $c3 -eq 2 ]];
   then
     echo "The sekeleton enlarged himself and hit you in the face"
     echo "'Exchange your soul with me, $name', says the skeleton'"
