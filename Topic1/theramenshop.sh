@@ -52,8 +52,3 @@ elif [[ $odr == $opt5 ]]
 else
 	echo "NOT VALID CHOICE"
 fi
-
-echo "Would you like anything else?"
-read ord2
-
-if 
