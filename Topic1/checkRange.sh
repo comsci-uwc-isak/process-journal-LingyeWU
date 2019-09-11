@@ -12,4 +12,4 @@ read n
 echo "The number is a valid score"
 else
 echo "The number is not a valid score"
-fi
+	fi
