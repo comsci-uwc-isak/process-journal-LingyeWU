@@ -15,11 +15,11 @@ then
 	#i = i + 1
 	if [ $i -eq 3 ];
 then
-echo "skipping"
+	echo "skipping"
 
-continue
-#This will skip iteration 3
-	fi
-	echo $i
+	continue
+	#This will skip iteration 3
+		fi
+		echo $i
 
 done
