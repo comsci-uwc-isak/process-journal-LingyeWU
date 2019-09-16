@@ -1,21 +1,21 @@
 #!/bin/bash
 
-
+#This program is for producing nth term of the Fibonacci seiries.
 echo "Please enter an integer: "
 read i
 
 a=o
 b=1
+c=1
 #initial values
-
 echo $a
 echo $b
-
-while [ $(($a+$b)) -le $i ]
+while [ $c -lt $i ];
 do
- (( c=a+b ))
-echo $c
+ c=$(($c+1))
+ d=$(($a+$b))
+ echo $d
 a=$b
-b=$c
+b=$d
 done
 exit

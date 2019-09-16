@@ -1,17 +1,19 @@
 #!/bin/bash
-#! /bin/bash
-echo "WELCOME TO MONTY HALL GAME"
+#This is a program for simulating MountyHall experiment
+
+#Starting
+echo "please enter your name: "
+read name
+#Starting statements
+echo "$name, WELCOME TO MONTY HALL GAME"
 echo "There are 3 doors, behind 2 of them are nothing, and the rest is 1 million dollars"
 echo "If you can find the door with 1 million dollars, you will win"
-echo "We will play 3 games, if you win 2 games, you will receive 1 million dollars"
+
 
 wins=0
-
-for i in 1 2 3
-do
-        prize=$(((RANDOM%3)+1))
-        nothing=$(((RANDOM%3)+1))
-
+prize=$(((RANDOM%3)+1))
+nothing=$(((RANDOM%3)+1))
+#When the prize and nothing end up in the same number
         while [ $nothing -eq $prize ];
         do
                 nothing=$(((RANDOM%3)+1))
@@ -37,7 +39,7 @@ do
 					break
 				fi
 		done
-
+#Ask the user if they want to switch
                		echo "The door" $nothing " has nothing"
                		echo "Do you want to change your decision? (y/n)"
                		read decision
