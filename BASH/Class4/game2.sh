@@ -22,7 +22,7 @@ case $c1 in
   read c2
   ;;
   "2")
-  echo "$name, there are two ways in front to you"
+  echo "$name, there are two ways in front to you."
   echo "Turn left or turn right?"
   echo "1 - Turn left"
   echo "2 - Turn right"

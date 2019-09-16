@@ -9,5 +9,5 @@ then
 	exit
 fi
 	sleep 1
-	#wait for one second
+	#wait for one second.
 done

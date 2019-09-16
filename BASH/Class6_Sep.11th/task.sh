@@ -26,5 +26,4 @@ fi
 done
 
 echo "GAMEOVER"
-
 exit

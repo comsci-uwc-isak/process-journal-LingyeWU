@@ -12,8 +12,9 @@ echo "password: "
 read p
 
 if [[ ( $u == $username && $p == $password ) ]]
-then echo "login successfully"
-else
-echo "Wrong username or password, please try again"
+
+  then echo "login successfully"
+  else
+  echo "Wrong username or password, please try again"
 
 fi
