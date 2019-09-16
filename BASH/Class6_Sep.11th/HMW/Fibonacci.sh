@@ -3,7 +3,7 @@
 #This program is for producing nth term of the Fibonacci seiries.
 echo "Please enter an integer: "
 read i
-
+((i=i-1))
 a=o
 b=1
 c=1
