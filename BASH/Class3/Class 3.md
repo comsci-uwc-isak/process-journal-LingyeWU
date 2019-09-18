@@ -1,4 +1,5 @@
-Two key take aways from today's class are
+Two key take aways from today's class
+=======================================
 
 a) first several commands in BASH, such as "echo" and variables.
 b）I have done a bit of python before and what we have done today is quite different from python.
