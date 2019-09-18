@@ -1,4 +1,5 @@
-Print "Reflection for the first CS class"
+Reflection for the first CS class
+===================================
 
 I've never expected computer science class to be as engaging and fun as we had on Wednesday!
 (especially when I am writing this at the end of my first week and looking back to how tedious the first class of each subject can be.)
